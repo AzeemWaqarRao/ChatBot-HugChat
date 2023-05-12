@@ -43,6 +43,7 @@ if 'generated' not in st.session_state:
 if 'past' not in st.session_state:
     st.session_state['past'] = ['Hi!']
 
+st.title("ChatBot")
 input_container = st.container()
 response_container = st.container()
 
