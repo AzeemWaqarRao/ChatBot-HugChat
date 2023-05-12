@@ -25,13 +25,16 @@ with st.sidebar:
     st.title("ChatBot Using HugChat")
     st.markdown('''
         ## About
-        This app is an LLM-powered chatbot
+        This is a Streamlit app that uses the HugChat API and an LLM (Language Model) from 
+        the Hugging Face model repository to provide a chatbot experience. 
+        The chatbot can generate responses to user input in a conversational manner.
     ''')
     # add_vertical_space(5)
     st.text("")
     st.text("")
     st.text("")
-    st.write('Click here to see the [Github Repository]()')
+    st.write('Click here to see the [Github Repository](https://github.com/AzeemWaqarRao/ChatBot-HugChat)')
+    st.write('Developed By [Azeem Waqar](https://www.linkedin.com/in/azeem-waqar-aa841b221/)')
 
 
 if 'generated' not in st.session_state:
